@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 
 import BtnGitHub from "../components/btnGitHub/BtnGitHub";
 import projects from "./../helpers/projectList";
-import img from "./../img/projects/02-big.jpg";
+// import img from "./../img/projects/02-big.jpg";
 
 const Project = () => {
   const { id } = useParams();
@@ -26,7 +26,8 @@ const Project = () => {
           <div className="project-details__desc">
             <p>Skills: {project.skills}</p>
           </div>
-          <BtnGitHub link="#" />
+
+          {project.gitHubLink && <BtnGitHub link="#" />}
         </div>
       </div>
     </main>
