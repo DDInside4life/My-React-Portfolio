@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 
 import BtnGitHub from "../components/btnGitHub/BtnGitHub";
-import projects from "./../helpers/projectList";
+import projects from "../helpers/projectList";
 // import img from "./../img/projects/02-big.jpg";
 
 const Project = () => {

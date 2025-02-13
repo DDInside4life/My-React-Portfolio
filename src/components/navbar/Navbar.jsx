@@ -1,6 +1,6 @@
 
 import { NavLink } from "react-router-dom";
-import BtnDarkMode from "../btnDarkMode/btnDarkMode";
+import BtnDarkMode from "../btnDarkMode/BtnDarkMode";
 import logo from "./../../img/logo/Logo.png";
 
 
